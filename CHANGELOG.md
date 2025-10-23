@@ -1,3 +1,9 @@
+## 0.0.3 (2025-10-23)
+
+### Bug Fixes
+
+-  removing dependency on JaxrsClientFactory ([fb87b](https://github.com/Forsakringskassan/fk-logging/commit/fb87b8e346e94f3) Tomas Bjerre)  
+
 ## 0.0.2 (2025-10-23)
 
 ### Bug Fixes
