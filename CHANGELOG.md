@@ -1,3 +1,9 @@
+## 0.0.2 (2025-10-23)
+
+### Bug Fixes
+
+-  allow empty MDC values ([09439](https://github.com/Forsakringskassan/fk-logging/commit/0943941161d7d80) Tomas Bjerre)  
+
 ## 0.0.1 (2025-10-23)
 
 ### Dependency updates
