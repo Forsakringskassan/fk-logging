@@ -2,16 +2,18 @@ package se.fk.github.logging.callerinfo.model;
 
 import org.immutables.value.Value;
 
+import java.util.Optional;
+
 @Value.Immutable
 public interface FKLoggingContext
 {
-   String breadcrumbId();
+   Optional<String> breadcrumbId();
 
-   String processId();
+   Optional<String> processId();
 
-   String httpMetod();
+   Optional<String> httpMetod();
 
-   String httpURL();
+   Optional<String> httpURL();
 
-   String applikation();
+   Optional<String> applikation();
 }

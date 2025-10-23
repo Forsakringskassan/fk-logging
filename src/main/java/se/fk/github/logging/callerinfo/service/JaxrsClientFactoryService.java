@@ -23,7 +23,7 @@ public class JaxrsClientFactoryService
    public <T> JaxrsClientOptionsBuilder<T> createClientOptions(String baseUrl, Class<T> clazz)
    {
       return JaxrsClientOptionsBuilders.createClient(baseUrl, clazz)
-            .header(HeaderTyp.BREADCRUMB_ID.value(), anropsinfo.getContext().breadcrumbId())
-            .header(HeaderTyp.PROCESSID.value(), anropsinfo.getContext().processId());
+            .header(HeaderTyp.BREADCRUMB_ID.value(), anropsinfo.getContext().breadcrumbId().orElse(""))
+            .header(HeaderTyp.PROCESSID.value(), anropsinfo.getContext().processId().orElse(""));
    }
 }

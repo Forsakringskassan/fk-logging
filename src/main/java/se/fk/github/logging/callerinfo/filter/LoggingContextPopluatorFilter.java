@@ -22,10 +22,10 @@ public class LoggingContextPopluatorFilter implements ContainerRequestFilter
    {
       callerinfo.setAttribut(requestContext);
 
-      MDC.put(MDCKeys.BREADCRUMBID.name(), callerinfo.getContext().breadcrumbId());
-      MDC.put(MDCKeys.APPLIKATION.name(), callerinfo.getContext().applikation());
-      MDC.put(MDCKeys.METHOD.name(), callerinfo.getContext().httpMetod());
-      MDC.put(MDCKeys.URL.name(), callerinfo.getContext().httpURL());
-      MDC.put(MDCKeys.PROCESSID.name(), callerinfo.getContext().processId());
+      MDC.put(MDCKeys.BREADCRUMBID.name(), callerinfo.getContext().breadcrumbId().orElse(""));
+      MDC.put(MDCKeys.APPLIKATION.name(), callerinfo.getContext().applikation().orElse(""));
+      MDC.put(MDCKeys.METHOD.name(), callerinfo.getContext().httpMetod().orElse(""));
+      MDC.put(MDCKeys.URL.name(), callerinfo.getContext().httpURL().orElse(""));
+      MDC.put(MDCKeys.PROCESSID.name(), callerinfo.getContext().processId().orElse(""));
    }
 }
