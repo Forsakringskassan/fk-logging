@@ -1,3 +1,9 @@
+## 0.0.5 (2025-10-24)
+
+### Bug Fixes
+
+-  breadcrumb -> breadcrumbid ([88336](https://github.com/Forsakringskassan/fk-logging/commit/88336bcd3fee8bc) Tomas Bjerre)  
+
 ## 0.0.4 (2025-10-24)
 
 ### Bug Fixes
