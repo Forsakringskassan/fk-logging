@@ -1,3 +1,9 @@
+## 0.0.4 (2025-10-24)
+
+### Bug Fixes
+
+-  random UUID på breadcrumb om den inte är satt ([22af6](https://github.com/Forsakringskassan/fk-logging/commit/22af6e5fde7dfdd) Tomas Bjerre)  
+
 ## 0.0.3 (2025-10-23)
 
 ### Bug Fixes
