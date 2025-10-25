@@ -1,3 +1,9 @@
+## 0.1.0 (2025-10-25)
+
+### Features
+
+-  archunit ([eb946](https://github.com/Forsakringskassan/fk-logging/commit/eb946b6cff75be2) Tomas Bjerre)  
+
 ## 0.0.5 (2025-10-24)
 
 ### Bug Fixes
