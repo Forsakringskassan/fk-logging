@@ -1,6 +1,6 @@
 .idea
 build
 .gradle
-src/gen
-src/generated-source
+fk-logging/src/gen
+fk-logging/src/generated-source
 bin

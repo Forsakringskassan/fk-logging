@@ -1,0 +1,3 @@
+rootProject.name = "fk-logging-base"
+
+include "fk-logging", "fk-logging-archunit"
