@@ -35,4 +35,9 @@ public class MDCPopulatorService
       MDC.put(MDCKeys.METHOD.name(), fkContext.httpMetod().orElse(""));
       MDC.put(MDCKeys.URL.name(), fkContext.httpURL().orElse(""));
    }
+
+   public void clearMdc()
+   {
+      MDC.clear();
+   }
 }
