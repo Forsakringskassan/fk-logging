@@ -18,6 +18,11 @@ public class MDCPopulatorService
    @ConfigProperty(name = APPLIKATION_PROP, defaultValue = APPLIKATION_PROP + NOT_SET)
    private String applikation;
 
+   public void setApplikation(String applikation)
+   {
+      this.applikation = applikation;
+   }
+
    public void setContext(FKLoggingContext fkContext)
    {
       if (fkContext.breadcrumbId().orElse("").isEmpty())

@@ -19,7 +19,12 @@ import java.io.IOException;
 public class LoggingContextHttpResponseFilter implements ContainerResponseFilter
 {
    @Inject
-   MDCPopulatorService mdcPopulatorService;
+   private MDCPopulatorService mdcPopulatorService;
+
+   public void setMdcPopulatorService(MDCPopulatorService mdcPopulatorService)
+   {
+      this.mdcPopulatorService = mdcPopulatorService;
+   }
 
    @Override
    public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext) throws IOException

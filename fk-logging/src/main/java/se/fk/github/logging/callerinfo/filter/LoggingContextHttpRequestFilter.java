@@ -21,7 +21,12 @@ import static se.fk.github.logging.callerinfo.model.HeaderTyp.BREADCRUMB_ID;
 public class LoggingContextHttpRequestFilter implements ContainerRequestFilter
 {
    @Inject
-   MDCPopulatorService mdcPopulatorService;
+   private MDCPopulatorService mdcPopulatorService;
+
+   public void setMdcPopulatorService(MDCPopulatorService mdcPopulatorService)
+   {
+      this.mdcPopulatorService = mdcPopulatorService;
+   }
 
    @Override
    public void filter(ContainerRequestContext requestContext)
