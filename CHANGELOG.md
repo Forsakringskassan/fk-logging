@@ -1,3 +1,9 @@
+## 0.1.1 (2025-10-26)
+
+### Bug Fixes
+
+-  cleanup MDC ([40fcb](https://github.com/Forsakringskassan/fk-logging/commit/40fcb14df91230f) Tomas Bjerre)  
+
 ## 0.1.0 (2025-10-25)
 
 ### Features
