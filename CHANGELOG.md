@@ -1,3 +1,9 @@
+## 0.2.0 (2025-10-26)
+
+### Features
+
+-  send breadcrumbid and processid in responses if set ([b62be](https://github.com/Forsakringskassan/fk-logging/commit/b62be213df2ed87) Tomas Bjerre)  
+
 ## 0.1.1 (2025-10-26)
 
 ### Bug Fixes
