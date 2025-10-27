@@ -1,3 +1,9 @@
+## 0.3.0 (2025-10-27)
+
+### Features
+
+-  logging filters ([59433](https://github.com/Forsakringskassan/fk-logging/commit/59433c9c7056d9b) Tomas Bjerre)  
+
 ## 0.2.0 (2025-10-26)
 
 ### Features
