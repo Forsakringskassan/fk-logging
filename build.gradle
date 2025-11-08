@@ -47,7 +47,7 @@ project("fk-logging", {
         annotationProcessor "org.immutables:value:2.11.6"
 
         testImplementation "ch.qos.logback:logback-classic:1.5.20"
-        testImplementation "org.junit.jupiter:junit-jupiter:6.0.0"
+        testImplementation "org.junit.jupiter:junit-jupiter:6.0.1"
         testImplementation "org.assertj:assertj-core:3.27.6"
         testImplementation "org.mockito:mockito-core:5.20.0"
         testImplementation "org.mockito:mockito-junit-jupiter:5.20.0"
@@ -63,6 +63,6 @@ project("fk-logging-archunit", {
     dependencies {
         implementation project(':fk-logging')
         api "com.tngtech.archunit:archunit-junit5:1.4.1"
-        compileOnly "org.junit.jupiter:junit-jupiter:6.0.0"
+        compileOnly "org.junit.jupiter:junit-jupiter:6.0.1"
     }
 })
