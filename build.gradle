@@ -13,7 +13,7 @@ buildscript {
   }
 
   dependencies {
-	classpath "se.fk.gradle:gradle-conventions:1.17.4"
+	classpath "se.fk.gradle:gradle-conventions:1.18.1"
 	classpath "org.kordamp.gradle:jandex-gradle-plugin:2.3.0"
   }
 }
