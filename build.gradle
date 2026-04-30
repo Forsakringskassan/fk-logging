@@ -62,7 +62,7 @@ project("fk-logging", {
 project("fk-logging-archunit", {
     dependencies {
         implementation project(':fk-logging')
-        api "com.tngtech.archunit:archunit-junit5:1.4.1"
+        api "com.tngtech.archunit:archunit-junit5:1.4.2"
         compileOnly "org.junit.jupiter:junit-jupiter:6.0.3"
     }
 })
