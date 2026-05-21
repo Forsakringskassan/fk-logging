@@ -43,8 +43,8 @@ project("fk-logging", {
         implementation "org.eclipse.microprofile.config:microprofile-config-api:3.1.1"
         implementation "org.slf4j:slf4j-api:2.0.18"
 
-        compileOnly "org.immutables:value:2.12.1"
-        annotationProcessor "org.immutables:value:2.12.1"
+        compileOnly "org.immutables:value:2.12.2"
+        annotationProcessor "org.immutables:value:2.12.2"
 
         testImplementation "ch.qos.logback:logback-classic:1.5.32"
         testImplementation "org.junit.jupiter:junit-jupiter:6.0.3"
