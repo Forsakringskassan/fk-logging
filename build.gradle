@@ -32,7 +32,7 @@ project("fk-logging", {
     }
 
     dependencies {
-        compileOnly "jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0"
+        compileOnly "jakarta.enterprise:jakarta.enterprise.cdi-api:5.0.0"
         compileOnly "jakarta.ws.rs:jakarta.ws.rs-api:4.0.0"
         compileOnly "jakarta.inject:jakarta.inject-api:2.0.1"
         compileOnly "jakarta.interceptor:jakarta.interceptor-api:2.2.0"
@@ -52,7 +52,7 @@ project("fk-logging", {
         testImplementation "org.mockito:mockito-core:5.23.0"
         testImplementation "org.mockito:mockito-junit-jupiter:5.23.0"
         testImplementation "jakarta.ws.rs:jakarta.ws.rs-api:4.0.0"
-        testImplementation "jakarta.enterprise:jakarta.enterprise.cdi-api:4.1.0"
+        testImplementation "jakarta.enterprise:jakarta.enterprise.cdi-api:5.0.0"
         testImplementation "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:3.1.12"
         testImplementation "org.glassfish.jersey.inject:jersey-hk2:3.1.12"
         testImplementation "org.glassfish.jersey.media:jersey-media-json-jackson:3.1.12"
